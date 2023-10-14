@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Patrick+Hand&display=swap');
 header{
     background-color: #2CA6A4;
     color: #F0F4EF;
@@ -5,6 +6,8 @@ header{
 footer{
     background-color: #2CA6A4;
     color: #0D1821;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #F0F4EF;
@@ -19,22 +22,37 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+footer .social img{
+    padding-top: 15px;
+}
 body{
+    font-family: 'Patrick Hand', 'Bradley Hand', sans-serif;
+    font-size: 22px;
     background-color: #F0F4EF;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 nav a{
     text-align: center;
     color: #F0F4EF;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #E58F65;
     color: #F0F4EF;
 }
 .book, .join{
+    font-size: 18px;
     background-color: #2CA6A4;
     color: #F0F4EF;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #E58F65;
@@ -48,10 +66,13 @@ content{
     text-align: center;
 }
 .msg h2{
+    font-family: 'Gloria Hallelujah', Arial, 'Times New Roman';
     color: #E58F65;
 }
 .msg p{
+    font-size: .8em;
     color: #F0F4EF;
+    padding-bottom: 15px;
 }
 .button-box{
     text-align: center;
@@ -64,10 +85,15 @@ main section{
     background-color: #E58F65;
 }
 .msg{
+    line-height: 1.5em;
     background-color: #0D1821;
+    padding: 35px;
 }
 .home-title{
+    font-family: 'Gloria Hallelujah', Arial, 'Times New Roman';
     color: #F0F4EF;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #F0F4EF;
@@ -77,10 +103,23 @@ h4{
 }
 .icon{
     width: 80px;
+    padding: 10px;
 }
 #hero-img{
     width: 100%;
 }
 a:hover{
     text-decoration: underline;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px;
+}
+.card-img{
+    border: 10px solid #0D1821;
+}
+main section img{
+    box-sizing: border-box;
 }
