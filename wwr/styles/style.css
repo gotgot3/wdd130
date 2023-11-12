@@ -192,6 +192,24 @@ main section img{
     grid-row: 5/9;
     box-shadow: 5px 5px 10px #0D1821;
 }
+#content2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.au-grid{
+    background-color: #E58F65;
+    grid-column: 2/10;
+    grid-row: 2/10;
+    box-shadow: 5px 5px 10px #0D1821;
+}
+.back-img {
+    width:100%;
+    z-index: -1;
+    grid-column: 1/21;
+    grid-row: 1/11;
+    box-shadow: 5px 5px 10px #0D1821;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
