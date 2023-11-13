@@ -210,6 +210,18 @@ main section img{
     grid-row: 1/11;
     box-shadow: 5px 5px 10px #0D1821;
 }
+.au-title{
+    color: #F0F4EF;
+}
+.mission-title{
+    color: #F0F4EF;
+}
+.story{
+    margin: 80px;
+}
+.mission{
+    margin: 80px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
