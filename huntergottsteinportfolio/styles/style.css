@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=BioRhyme:wght@300&display=swap');
+header {
+    background-color: #ffa69e;
+    display: grid;
+    grid-template-columns: 150px auto;
+    box-shadow: 5px 5px 10px black;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    padding: 15px;
+}
+nav a {
+    font-family: BioRhyme, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #faf3dd;
+    text-align: center;
+    text-decoration: none;
+    padding: 100px;
+}
+nav a:hover {
+    color: #7d80da;
+    text-decoration: underline;
+}
+footer {
+    background-color: #7d80da;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 10px black;
+}
+footer a {
+    color: #faf3dd;
+}
+footer a:hover {
+    color: #440381;
+}
+footer p {
+    font-size: 1.5em;
+}
+footer .social img {
+    padding-top: 15px;
+}
+body {
+    font-family: BioRhyme, Helvetica, sans-serif  ;
+    background-image: url(../images/az.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.6fr 0.6fr 0.6fr 0.6fr 0.6fr 1fr;
+    grid-template-rows: 1fr 25px;
+    text-align: center;
+}
+#foreground {
+    background-color: #440381;
+    grid-column: 2/7;
+    box-shadow: 5px 5px 10px black;
+    z-index: -1;
+}
+h1 {
+    font-family: Bevan;
+    color: #7d80da;
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    color: #ffa69e;
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+}
+main p {
+    color: #faf3dd;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.me {
+    width: 40%;
+}
