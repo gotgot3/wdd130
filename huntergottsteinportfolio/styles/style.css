@@ -71,6 +71,17 @@ body {
     box-shadow: 5px 5px 10px black;
     z-index: -1;
 }
+main p {
+    color: #faf3dd;
+}
+.about-me p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.hobbies p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
 h1 {
     font-family: Bevan;
     color: #7d80da;
@@ -84,13 +95,39 @@ h2 {
     display: flex;
     justify-content: center;
 }
-main p {
-    color: #faf3dd;
+.me {
+    width: 40%;
+}
+.intro {
     margin-left: 200px;
     margin-right: 200px;
 }
-.me {
+.poster, .thelogo {
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+.posterimg {
     width: 40%;
+    float: right;
+    margin-right: 30px;
+    margin-top: -300px;
+}
+.logoimg {
+    width: 40%;
+    float: right;
+    margin-right: 30px;
+    background-color: white;
+    margin-top: -300px;
+}
+.poster h2, .thelogo h2 {
+    display: flex;
+    float: left;
+    margin-left: 300px;
+    margin-right: 500px;
+}
+.poster p, .thelogo p {
+    margin-left: 50px;
+    margin-right: 550px;
 }
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
