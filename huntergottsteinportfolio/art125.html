@@ -5,21 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hunter Gottstein's Portfolio | Art 125</title>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </head>
 <body>
     <div id="content">
     <header>
-    <a id="Logo_Link" href="index.html">
-        <img class="logo" src="images/logo.png" alt="hunter's logo">
-    </a>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="art125.html">Art 125</a>
-        <a href="art130.html">Art 130</a>
-    </nav>
+        <div class="topnav" id="myTopnav">
+            <a id="Logo_Link" href="index.html">
+                <img class="logo" src="images/logo.png" alt="hunter's logo">
+            </a>
+            <a href="index.html">Home</a>
+            <a href="art125.html">Art 125</a>
+            <a href="art130.html">Art 130</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>        
+            </div>
     </header>
     <main class="home-grid">
-        <img class="background" src="images/az.jpg" alt="Arizona">
         <div id="foreground-125">
             <h1>ART 125: ADOBE CC BASICS</h1>
             <section class="adobe">

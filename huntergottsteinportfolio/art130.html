@@ -5,21 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hunter Gottstein's Portfolio | Art 130</title>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </head>
 <body>
     <div id="content">
     <header>
-    <a id="Logo_Link" href="index.html">
-        <img class="logo" src="images/logo.png" alt="hunter's logo">
-    </a>
-    <nav>
+    <div class="topnav" id="myTopnav">
+        <a id="Logo_Link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="hunter's logo">
+        </a>
         <a href="index.html">Home</a>
         <a href="art125.html">Art 125</a>
         <a href="art130.html">Art 130</a>
-    </nav>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>        
+        </div>
     </header>
     <main class="home-grid">
-        <img class="background" src="images/az.jpg" alt="Arizona">
         <div id="foreground-130">
             <h1>ART 130: INTRO TO GRAPHIC DESIGN</h1>
             <section class="intro">
@@ -34,7 +46,7 @@
             <section class="thelogo">
                 <h2>The Logo</h2>
                 <p>Our most recent project was to create a logo for a buisness that we would create. I ended up with an ocean themed bookstore. My original name for it was 20,000 Pages Into The Story, being a play off Twenty-Thousand Leagues Under The Seas, but it ended up being way too long. After four week, my final logo went massive changed the final few days, but I am extreamely happy with the end result.</p>
-                <img id="logoimg" src="images/logo.png" alt="logo">
+                <img id="logoimg" src="images/artlogo.png" alt="logo">
             </section>
         </div>
     </main>
