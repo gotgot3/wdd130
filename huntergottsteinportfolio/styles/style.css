@@ -98,16 +98,37 @@ h2 {
 .me {
     width: 40%;
 }
-.intro {
+.intro, .adobe, .pixabay p {
     margin-left: 200px;
     margin-right: 200px;
 }
-.poster, .thelogo {
+.pixabay p {
+    margin-bottom: 100px;
+}
+.poster, .thelogo, .bug, .collage {
     margin-top: 150px;
     margin-bottom: 300px;
 }
 .posterimg {
     width: 40%;
+    float: right;
+    margin-right: 30px;
+    margin-top: -300px;
+}
+.bugimg {
+    width: 40%;
+    float: right;
+    margin-right: 30px;
+    margin-top: -300px;
+}
+.collageimg {
+    width: 40%;
+    float: right;
+    margin-right: 30px;
+    margin-top: -300px;
+}
+.map1, .map2, .map3 {
+    width: 20%;
     float: right;
     margin-right: 30px;
     margin-top: -300px;
@@ -119,15 +140,29 @@ h2 {
     background-color: white;
     margin-top: -300px;
 }
-.poster h2, .thelogo h2 {
+.pixabayimg {
+    width: 90%;
+    margin-top: 100px;
+}
+.poster h2, .thelogo h2, .bug h2, .collage h2 {
     display: flex;
     float: left;
     margin-left: 300px;
     margin-right: 500px;
 }
-.poster p, .thelogo p {
+.map h2 {
+    display: flex;
+    float: left;
+    margin-left: 150px;
+    margin-right: 500px;
+}
+.poster p, .thelogo p, .bug p, .collage p {
     margin-left: 50px;
     margin-right: 550px;
+}
+.map p {
+    margin-left: 50px;
+    margin-right: 850px;
 }
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
